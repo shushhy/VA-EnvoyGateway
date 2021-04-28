@@ -1,0 +1,344 @@
+2021-04-27 09:22:25.483 +01:00 [INF] Starting the application
+2021-04-27 09:22:25.583 +01:00 [INF] Hello, shu!
+2021-04-27 09:22:27.007 +01:00 [INF] Now listening on: https://localhost:5001
+2021-04-27 09:22:27.010 +01:00 [INF] Now listening on: http://localhost:5000
+2021-04-27 09:22:27.012 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-27 09:22:27.012 +01:00 [INF] Hosting environment: Development
+2021-04-27 09:22:27.013 +01:00 [INF] Content root path: D:\code\Csharp\VA-OSSApi\OSSApi\OSSApi
+2021-04-27 09:22:27.211 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 72
+2021-04-27 09:22:27.268 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 48.0066 ms
+2021-04-27 09:22:27.288 +01:00 [INF] Request finished in 84.8471ms 404 
+2021-04-27 09:22:29.325 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 2577
+2021-04-27 09:22:29.327 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 1.0590 ms
+2021-04-27 09:22:29.330 +01:00 [INF] Request finished in 5.045ms 404 
+2021-04-27 09:22:39.348 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 4223
+2021-04-27 09:22:39.349 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1144 ms
+2021-04-27 09:22:39.351 +01:00 [INF] Request finished in 3.0462ms 404 
+2021-04-27 09:22:39.355 +01:00 [INF] Connection id "0HM89AMBQ2HVR", Request id "0HM89AMBQ2HVR:00000003": the application completed without reading the entire request body.
+2021-04-27 09:22:59.368 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 6239
+2021-04-27 09:22:59.369 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1280 ms
+2021-04-27 09:22:59.370 +01:00 [INF] Request finished in 3.0319ms 404 
+2021-04-27 09:22:59.371 +01:00 [INF] Connection id "0HM89AMBQ2HVR", Request id "0HM89AMBQ2HVR:00000004": the application completed without reading the entire request body.
+2021-04-27 09:23:39.386 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 8254
+2021-04-27 09:23:39.388 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1612 ms
+2021-04-27 09:23:39.391 +01:00 [INF] Request finished in 5.7931ms 404 
+2021-04-27 09:23:39.395 +01:00 [INF] Connection id "0HM89AMBQ2HVR", Request id "0HM89AMBQ2HVR:00000005": the application completed without reading the entire request body.
+2021-04-27 09:24:56.037 +01:00 [INF] Application is shutting down...
+2021-04-27 09:25:26.853 +01:00 [INF] Starting the application
+2021-04-27 09:25:26.931 +01:00 [INF] Hello, shu!
+2021-04-27 09:25:27.781 +01:00 [INF] Now listening on: https://localhost:5001
+2021-04-27 09:25:27.786 +01:00 [INF] Now listening on: http://localhost:5000
+2021-04-27 09:25:27.787 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-27 09:25:27.787 +01:00 [INF] Hosting environment: Development
+2021-04-27 09:25:27.789 +01:00 [INF] Content root path: D:\code\Csharp\VA-OSSApi\OSSApi\OSSApi
+2021-04-27 09:25:28.326 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 72
+2021-04-27 09:25:28.359 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 27.4076 ms
+2021-04-27 09:25:28.372 +01:00 [INF] Request finished in 48.6173ms 404 
+2021-04-27 09:25:30.412 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 2577
+2021-04-27 09:25:30.414 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.8942 ms
+2021-04-27 09:25:30.416 +01:00 [INF] Request finished in 4.4485ms 404 
+2021-04-27 09:25:40.434 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 4227
+2021-04-27 09:25:40.436 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1460 ms
+2021-04-27 09:25:40.439 +01:00 [INF] Request finished in 5.9338ms 404 
+2021-04-27 09:25:40.445 +01:00 [INF] Connection id "0HM89AO1Q2A5J", Request id "0HM89AO1Q2A5J:00000003": the application completed without reading the entire request body.
+2021-04-27 09:25:58.980 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/customer  
+2021-04-27 09:25:58.981 +01:00 [INF] HTTP GET /customer responded 404 in 0.1505 ms
+2021-04-27 09:25:58.985 +01:00 [INF] Request finished in 5.6294ms 404 
+2021-04-27 09:25:59.122 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-04-27 09:25:59.123 +01:00 [INF] HTTP GET /favicon.ico responded 404 in 0.0828 ms
+2021-04-27 09:25:59.125 +01:00 [INF] Request finished in 3.0086ms 404 
+2021-04-27 09:26:00.455 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 9074
+2021-04-27 09:26:00.456 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.0793 ms
+2021-04-27 09:26:00.457 +01:00 [INF] Request finished in 2.6709ms 404 
+2021-04-27 09:26:00.458 +01:00 [INF] Connection id "0HM89AO1Q2A5J", Request id "0HM89AO1Q2A5J:00000004": the application completed without reading the entire request body.
+2021-04-27 09:26:23.058 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/customers  
+2021-04-27 09:26:23.060 +01:00 [INF] HTTP GET /customers responded 404 in 0.0977 ms
+2021-04-27 09:26:23.063 +01:00 [INF] Request finished in 5.0353ms 404 
+2021-04-27 09:26:40.474 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 12503
+2021-04-27 09:26:40.476 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1352 ms
+2021-04-27 09:26:40.478 +01:00 [INF] Request finished in 4.0956ms 404 
+2021-04-27 09:26:40.479 +01:00 [INF] Connection id "0HM89AO1Q2A5J", Request id "0HM89AO1Q2A5J:00000005": the application completed without reading the entire request body.
+2021-04-27 09:26:45.598 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/customer  
+2021-04-27 09:26:45.599 +01:00 [INF] HTTP GET /customer responded 404 in 0.0973 ms
+2021-04-27 09:26:45.601 +01:00 [INF] Request finished in 3.3004ms 404 
+2021-04-27 09:27:16.489 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/customer/1  
+2021-04-27 09:27:16.490 +01:00 [INF] HTTP GET /customer/1 responded 404 in 0.0918 ms
+2021-04-27 09:27:16.493 +01:00 [INF] Request finished in 3.638ms 404 
+2021-04-27 09:27:43.322 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/customer  
+2021-04-27 09:27:54.483 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/customer  
+2021-04-27 09:28:00.494 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 17345
+2021-04-27 09:28:13.782 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1377 ms
+2021-04-27 09:28:13.786 +01:00 [INF] Request finished in 13292.1269ms 404 
+2021-04-27 09:28:13.790 +01:00 [INF] Request finished in 30468.2201ms 0 
+2021-04-27 09:28:13.790 +01:00 [INF] Connection id "0HM89AO1Q2A5J", Request id "0HM89AO1Q2A5J:00000006": the application completed without reading the entire request body.
+2021-04-27 09:28:13.791 +01:00 [INF] Request finished in 19308.2434ms 307 
+2021-04-27 09:28:13.802 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/customer  
+2021-04-27 09:28:13.803 +01:00 [INF] HTTP GET /customer responded 404 in 0.0205 ms
+2021-04-27 09:28:13.804 +01:00 [INF] Request finished in 1.9389ms 404 
+2021-04-27 09:28:17.003 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/customer  
+2021-04-27 09:28:17.005 +01:00 [INF] HTTP GET /customer responded 404 in 0.0687 ms
+2021-04-27 09:28:17.006 +01:00 [INF] Request finished in 2.6708ms 404 
+2021-04-27 09:28:21.027 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/customer/1  
+2021-04-27 09:28:21.028 +01:00 [INF] HTTP GET /customer/1 responded 404 in 0.1149 ms
+2021-04-27 09:28:21.030 +01:00 [INF] Request finished in 2.9087ms 404 
+2021-04-27 09:28:26.362 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/customer/1  
+2021-04-27 09:28:26.363 +01:00 [INF] Request finished in 1.2022ms 307 
+2021-04-27 09:28:26.374 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/customer/1  
+2021-04-27 09:28:26.375 +01:00 [INF] HTTP GET /customer/1 responded 404 in 0.0804 ms
+2021-04-27 09:28:26.377 +01:00 [INF] Request finished in 2.3906ms 404 
+2021-04-27 09:29:21.490 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/customer  
+2021-04-27 09:29:21.492 +01:00 [INF] HTTP GET /customer responded 404 in 0.0826 ms
+2021-04-27 09:29:21.494 +01:00 [INF] Request finished in 3.0954ms 404 
+2021-04-27 09:29:21.611 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-04-27 09:29:21.612 +01:00 [INF] HTTP GET /favicon.ico responded 404 in 0.0808 ms
+2021-04-27 09:29:21.614 +01:00 [INF] Request finished in 3.6002ms 404 
+2021-04-27 09:30:44.175 +01:00 [INF] Starting the application
+2021-04-27 09:30:44.257 +01:00 [INF] Hello, shu!
+2021-04-27 09:30:45.061 +01:00 [INF] Now listening on: https://localhost:5001
+2021-04-27 09:30:45.064 +01:00 [INF] Now listening on: http://localhost:5000
+2021-04-27 09:30:45.065 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-27 09:30:45.066 +01:00 [INF] Hosting environment: Development
+2021-04-27 09:30:45.067 +01:00 [INF] Content root path: D:\code\Csharp\VA-OSSApi\OSSApi\OSSApi
+2021-04-27 09:30:45.631 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 147
+2021-04-27 09:30:45.667 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 30.6693 ms
+2021-04-27 09:30:45.680 +01:00 [INF] Request finished in 51.792ms 404 
+2021-04-27 09:30:47.714 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 2577
+2021-04-27 09:30:47.716 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 1.0077 ms
+2021-04-27 09:30:47.718 +01:00 [INF] Request finished in 4.1837ms 404 
+2021-04-27 09:30:57.735 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 4227
+2021-04-27 09:30:57.736 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1144 ms
+2021-04-27 09:30:57.738 +01:00 [INF] Request finished in 2.9625ms 404 
+2021-04-27 09:30:57.742 +01:00 [INF] Connection id "0HM89AR0C4SIR", Request id "0HM89AR0C4SIR:00000003": the application completed without reading the entire request body.
+2021-04-27 09:31:08.067 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/customer  
+2021-04-27 09:31:08.069 +01:00 [INF] HTTP GET /customer responded 404 in 0.1607 ms
+2021-04-27 09:31:08.073 +01:00 [INF] Request finished in 6.6221ms 404 
+2021-04-27 09:31:17.756 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 7650
+2021-04-27 09:31:17.757 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1207 ms
+2021-04-27 09:31:17.759 +01:00 [INF] Request finished in 3.0115ms 404 
+2021-04-27 09:31:17.760 +01:00 [INF] Connection id "0HM89AR0C4SIR", Request id "0HM89AR0C4SIR:00000004": the application completed without reading the entire request body.
+2021-04-27 09:31:57.774 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 9666
+2021-04-27 09:31:57.776 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1353 ms
+2021-04-27 09:31:57.777 +01:00 [INF] Request finished in 3.4274ms 404 
+2021-04-27 09:31:57.779 +01:00 [INF] Connection id "0HM89AR0C4SIR", Request id "0HM89AR0C4SIR:00000005": the application completed without reading the entire request body.
+2021-04-27 09:37:16.392 +01:00 [INF] Starting the application
+2021-04-27 09:37:16.470 +01:00 [INF] Hello, shu!
+2021-04-27 09:37:17.411 +01:00 [INF] Now listening on: https://localhost:5001
+2021-04-27 09:37:17.414 +01:00 [INF] Now listening on: http://localhost:5000
+2021-04-27 09:37:17.415 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-27 09:37:17.416 +01:00 [INF] Hosting environment: Development
+2021-04-27 09:37:17.417 +01:00 [INF] Content root path: D:\code\Csharp\VA-OSSApi\OSSApi\OSSApi
+2021-04-27 09:37:17.867 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 72
+2021-04-27 09:37:17.902 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 28.6482 ms
+2021-04-27 09:37:17.915 +01:00 [INF] Request finished in 50.7841ms 404 
+2021-04-27 09:37:19.950 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 2577
+2021-04-27 09:37:19.952 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.8897 ms
+2021-04-27 09:37:19.953 +01:00 [INF] Request finished in 3.6578ms 404 
+2021-04-27 09:37:32.041 +01:00 [INF] Starting the application
+2021-04-27 09:37:32.117 +01:00 [INF] Hello, shu!
+2021-04-27 09:37:32.888 +01:00 [INF] Now listening on: https://localhost:5001
+2021-04-27 09:37:32.891 +01:00 [INF] Now listening on: http://localhost:5000
+2021-04-27 09:37:32.892 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-27 09:37:32.893 +01:00 [INF] Hosting environment: Development
+2021-04-27 09:37:32.894 +01:00 [INF] Content root path: D:\code\Csharp\VA-OSSApi\OSSApi\OSSApi
+2021-04-27 09:37:33.486 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 72
+2021-04-27 09:37:33.520 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 27.8175 ms
+2021-04-27 09:37:33.533 +01:00 [INF] Request finished in 50.7795ms 404 
+2021-04-27 09:37:35.574 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 2577
+2021-04-27 09:37:35.576 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.8786 ms
+2021-04-27 09:37:35.577 +01:00 [INF] Request finished in 3.8017ms 404 
+2021-04-27 09:37:42.120 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/product  
+2021-04-27 09:37:42.122 +01:00 [INF] HTTP GET /product responded 404 in 0.2353 ms
+2021-04-27 09:37:42.127 +01:00 [INF] Request finished in 7.6367ms 404 
+2021-04-27 09:37:45.582 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 5628
+2021-04-27 09:37:45.583 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1137 ms
+2021-04-27 09:37:45.585 +01:00 [INF] Request finished in 2.7273ms 404 
+2021-04-27 09:37:45.588 +01:00 [INF] Connection id "0HM89AUPTJM3M", Request id "0HM89AUPTJM3M:00000003": the application completed without reading the entire request body.
+2021-04-27 09:38:05.600 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 7644
+2021-04-27 09:38:05.602 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1389 ms
+2021-04-27 09:38:05.605 +01:00 [INF] Request finished in 4.2312ms 404 
+2021-04-27 09:38:05.606 +01:00 [INF] Connection id "0HM89AUPTJM3M", Request id "0HM89AUPTJM3M:00000004": the application completed without reading the entire request body.
+2021-04-27 09:38:45.620 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 9660
+2021-04-27 09:38:45.622 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1714 ms
+2021-04-27 09:38:45.623 +01:00 [INF] Request finished in 3.8163ms 404 
+2021-04-27 09:38:45.626 +01:00 [INF] Connection id "0HM89AUPTJM3M", Request id "0HM89AUPTJM3M:00000005": the application completed without reading the entire request body.
+2021-04-27 09:40:05.646 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 11676
+2021-04-27 09:40:05.648 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1682 ms
+2021-04-27 09:40:05.650 +01:00 [INF] Request finished in 3.8575ms 404 
+2021-04-27 09:40:05.653 +01:00 [INF] Connection id "0HM89AUPTJM3M", Request id "0HM89AUPTJM3M:00000006": the application completed without reading the entire request body.
+2021-04-27 09:41:31.501 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/product  
+2021-04-27 09:41:31.502 +01:00 [INF] HTTP GET /product responded 404 in 0.1258 ms
+2021-04-27 09:41:31.504 +01:00 [INF] Request finished in 3.2684ms 404 
+2021-04-27 09:41:35.092 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/product  
+2021-04-27 09:41:35.093 +01:00 [INF] HTTP GET /product responded 404 in 0.1246 ms
+2021-04-27 09:41:35.095 +01:00 [INF] Request finished in 3.0049ms 404 
+2021-04-27 09:41:37.185 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/product  
+2021-04-27 09:41:37.186 +01:00 [INF] HTTP GET /product responded 404 in 0.1290 ms
+2021-04-27 09:41:37.188 +01:00 [INF] Request finished in 3.199ms 404 
+2021-04-27 09:42:05.277 +01:00 [INF] Starting the application
+2021-04-27 09:42:05.370 +01:00 [INF] Hello, shu!
+2021-04-27 09:42:06.221 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-27 09:42:06.224 +01:00 [INF] Hosting environment: Development
+2021-04-27 09:42:06.224 +01:00 [INF] Content root path: D:\code\Csharp\VA-OSSApi\OSSApi\OSSApi
+2021-04-27 09:42:06.240 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44373/  
+2021-04-27 09:42:06.278 +01:00 [INF] HTTP GET / responded 404 in 32.3597 ms
+2021-04-27 09:42:06.297 +01:00 [INF] Request finished in 63.848ms 404 
+2021-04-27 09:42:31.802 +01:00 [INF] Starting the application
+2021-04-27 09:42:31.880 +01:00 [INF] Hello, shu!
+2021-04-27 09:42:32.728 +01:00 [INF] Now listening on: https://localhost:5001
+2021-04-27 09:42:32.732 +01:00 [INF] Now listening on: http://localhost:5000
+2021-04-27 09:42:32.733 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-27 09:42:32.734 +01:00 [INF] Hosting environment: Development
+2021-04-27 09:42:32.735 +01:00 [INF] Content root path: D:\code\Csharp\VA-OSSApi\OSSApi\OSSApi
+2021-04-27 09:42:33.275 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 72
+2021-04-27 09:42:33.309 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 28.0994 ms
+2021-04-27 09:42:33.321 +01:00 [INF] Request finished in 49.6266ms 404 
+2021-04-27 09:42:35.349 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 2577
+2021-04-27 09:42:35.351 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.9396 ms
+2021-04-27 09:42:35.353 +01:00 [INF] Request finished in 4.0055ms 404 
+2021-04-27 09:42:45.364 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 4227
+2021-04-27 09:42:45.365 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1211 ms
+2021-04-27 09:42:45.367 +01:00 [INF] Request finished in 2.7706ms 404 
+2021-04-27 09:42:45.370 +01:00 [INF] Connection id "0HM89B1J8M1UM", Request id "0HM89B1J8M1UM:00000003": the application completed without reading the entire request body.
+2021-04-27 09:43:05.385 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 6243
+2021-04-27 09:43:05.387 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1294 ms
+2021-04-27 09:43:05.388 +01:00 [INF] Request finished in 2.8428ms 404 
+2021-04-27 09:43:05.389 +01:00 [INF] Connection id "0HM89B1J8M1UM", Request id "0HM89B1J8M1UM:00000004": the application completed without reading the entire request body.
+2021-04-27 09:43:45.398 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 8259
+2021-04-27 09:43:45.400 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1397 ms
+2021-04-27 09:43:45.402 +01:00 [INF] Request finished in 3.5208ms 404 
+2021-04-27 09:43:45.406 +01:00 [INF] Connection id "0HM89B1J8M1UM", Request id "0HM89B1J8M1UM:00000005": the application completed without reading the entire request body.
+2021-04-27 09:44:14.323 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/customer  
+2021-04-27 09:44:14.324 +01:00 [INF] HTTP GET /customer responded 404 in 0.1493 ms
+2021-04-27 09:44:14.326 +01:00 [INF] Request finished in 3.882ms 404 
+2021-04-27 09:44:15.423 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/customer  
+2021-04-27 09:44:15.424 +01:00 [INF] HTTP GET /customer responded 404 in 0.1639 ms
+2021-04-27 09:44:15.426 +01:00 [INF] Request finished in 4.0993ms 404 
+2021-04-27 09:44:28.106 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/customer  
+2021-04-27 09:44:28.108 +01:00 [INF] HTTP GET /customer responded 404 in 0.1346 ms
+2021-04-27 09:44:28.110 +01:00 [INF] Request finished in 3.9508ms 404 
+2021-04-27 09:44:28.899 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/customer  
+2021-04-27 09:44:28.901 +01:00 [INF] HTTP GET /customer responded 404 in 0.1721 ms
+2021-04-27 09:44:28.904 +01:00 [INF] Request finished in 4.5441ms 404 
+2021-04-27 09:44:30.450 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/customer  
+2021-04-27 09:44:30.452 +01:00 [INF] HTTP GET /customer responded 404 in 0.2117 ms
+2021-04-27 09:44:30.454 +01:00 [INF] Request finished in 4.1695ms 404 
+2021-04-27 09:44:31.094 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/customer  
+2021-04-27 09:44:31.096 +01:00 [INF] HTTP GET /customer responded 404 in 0.1829 ms
+2021-04-27 09:44:31.098 +01:00 [INF] Request finished in 4.367ms 404 
+2021-04-27 09:44:33.575 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/customer/1  
+2021-04-27 09:44:33.576 +01:00 [INF] HTTP GET /customer/1 responded 404 in 0.1100 ms
+2021-04-27 09:44:33.577 +01:00 [INF] Request finished in 2.8561ms 404 
+2021-04-27 09:44:34.089 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/customer/1  
+2021-04-27 09:44:34.091 +01:00 [INF] HTTP GET /customer/1 responded 404 in 0.1751 ms
+2021-04-27 09:44:34.093 +01:00 [INF] Request finished in 4.4801ms 404 
+2021-04-27 09:45:05.416 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 22091
+2021-04-27 09:45:05.418 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1621 ms
+2021-04-27 09:45:05.420 +01:00 [INF] Request finished in 3.4273ms 404 
+2021-04-27 09:45:05.421 +01:00 [INF] Connection id "0HM89B1J8M1UM", Request id "0HM89B1J8M1UM:00000006": the application completed without reading the entire request body.
+2021-04-27 09:45:30.040 +01:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:5001/customer/1  
+2021-04-27 09:45:30.041 +01:00 [INF] HTTP DELETE /customer/1 responded 404 in 0.1211 ms
+2021-04-27 09:45:30.044 +01:00 [INF] Request finished in 4.2064ms 404 
+2021-04-27 09:45:33.122 +01:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:5001/customer/1  
+2021-04-27 09:45:33.124 +01:00 [INF] HTTP DELETE /customer/1 responded 404 in 0.1546 ms
+2021-04-27 09:45:33.126 +01:00 [INF] Request finished in 3.9543ms 404 
+2021-04-27 09:47:50.162 +01:00 [INF] Starting the application
+2021-04-27 09:47:50.243 +01:00 [INF] Hello, shu!
+2021-04-27 09:47:51.078 +01:00 [INF] Now listening on: https://localhost:5001
+2021-04-27 09:47:51.081 +01:00 [INF] Now listening on: http://localhost:5000
+2021-04-27 09:47:51.082 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-27 09:47:51.083 +01:00 [INF] Hosting environment: Development
+2021-04-27 09:47:51.084 +01:00 [INF] Content root path: D:\code\Csharp\VA-OSSApi\OSSApi\OSSApi
+2021-04-27 09:47:51.630 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 72
+2021-04-27 09:47:51.670 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 33.0972 ms
+2021-04-27 09:47:51.686 +01:00 [INF] Request finished in 59.2318ms 404 
+2021-04-27 09:47:53.718 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 2577
+2021-04-27 09:47:53.720 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 1.1179 ms
+2021-04-27 09:47:53.723 +01:00 [INF] Request finished in 4.9791ms 404 
+2021-04-27 09:47:58.905 +01:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:5001/api/customer/1  
+2021-04-27 09:47:58.910 +01:00 [INF] Executing endpoint 'OSSApi.Controllers.CustomerController.Delete (OSSApi)'
+2021-04-27 09:47:58.985 +01:00 [INF] Route matched with {action = "Delete", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller OSSApi.Controllers.CustomerController (OSSApi).
+2021-04-27 09:48:00.033 +01:00 [INF] Executed action OSSApi.Controllers.CustomerController.Delete (OSSApi) in 1041.4003ms
+2021-04-27 09:48:00.036 +01:00 [INF] Executed endpoint 'OSSApi.Controllers.CustomerController.Delete (OSSApi)'
+2021-04-27 09:48:00.039 +01:00 [ERR] HTTP DELETE /api/customer/1 responded 500 in 1132.6691 ms
+Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK__Orders__Customer__3A81B327". The conflict occurred in database "OnlineShoppingSystem", table "dbo.Orders", column 'CustomerId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteNonQuery(IAsyncResult asyncResult, Boolean isInternal, String endMethod)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 646
+   at Dapper.Contrib.Extensions.SqlMapperExtensions.DeleteAsync[T](IDbConnection connection, T entityToDelete, IDbTransaction transaction, Nullable`1 commandTimeout) in /_/Dapper.Contrib/SqlMapperExtensions.Async.cs:line 324
+   at OSS.Data.Repository.CustomerRepository.DeleteAsync(Int32 id) in D:\code\Csharp\VA-OSSApi\OSSApi\OSS.Data\Repository\CustomerRepository.cs:line 70
+   at OSS.Services.Services.CustomerService.DeleteAsync(Int32 id) in D:\code\Csharp\VA-OSSApi\OSSApi\OSS.Services\Services\CustomerService.cs:line 18
+   at OSSApi.Controllers.CustomerController.Delete(Int32 id) in D:\code\Csharp\VA-OSSApi\OSSApi\OSSApi\Controllers\CustomerController.cs:line 49
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+ClientConnectionId:dddf65d8-1391-4301-9357-55d678160182
+Error Number:547,State:0,Class:16
+2021-04-27 09:48:00.186 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK__Orders__Customer__3A81B327". The conflict occurred in database "OnlineShoppingSystem", table "dbo.Orders", column 'CustomerId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteNonQuery(IAsyncResult asyncResult, Boolean isInternal, String endMethod)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 646
+   at Dapper.Contrib.Extensions.SqlMapperExtensions.DeleteAsync[T](IDbConnection connection, T entityToDelete, IDbTransaction transaction, Nullable`1 commandTimeout) in /_/Dapper.Contrib/SqlMapperExtensions.Async.cs:line 324
+   at OSS.Data.Repository.CustomerRepository.DeleteAsync(Int32 id) in D:\code\Csharp\VA-OSSApi\OSSApi\OSS.Data\Repository\CustomerRepository.cs:line 70
+   at OSS.Services.Services.CustomerService.DeleteAsync(Int32 id) in D:\code\Csharp\VA-OSSApi\OSSApi\OSS.Services\Services\CustomerService.cs:line 18
+   at OSSApi.Controllers.CustomerController.Delete(Int32 id) in D:\code\Csharp\VA-OSSApi\OSSApi\OSSApi\Controllers\CustomerController.cs:line 49
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:dddf65d8-1391-4301-9357-55d678160182
+Error Number:547,State:0,Class:16
+2021-04-27 09:48:00.270 +01:00 [INF] Request finished in 1365.2562ms 500 text/plain
+2021-04-27 09:48:03.746 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 17959
+2021-04-27 09:48:03.748 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1282 ms
+2021-04-27 09:48:03.752 +01:00 [INF] Request finished in 5.834ms 404 
+2021-04-27 09:48:03.757 +01:00 [INF] Connection id "0HM89B4I4K1MJ", Request id "0HM89B4I4K1MJ:00000003": the application completed without reading the entire request body.
+2021-04-27 09:48:19.744 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/customer/1  
+2021-04-27 09:48:22.548 +01:00 [INF] Executing endpoint 'OSSApi.Controllers.CustomerController.GetById (OSSApi)'
+2021-04-27 09:48:22.557 +01:00 [INF] Route matched with {action = "GetById", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller OSSApi.Controllers.CustomerController (OSSApi).
+2021-04-27 09:48:22.658 +01:00 [INF] Retrieved Customer: {"CustomerId":1,"FirstName":"Buddy","LastName":"Davison","Email":"buddy.davison@mail.com","Password":"1111111111","Gender":"M","Country":"Italy","PhoneNumber":"025550155"}
+2021-04-27 09:48:22.664 +01:00 [INF] Executing ObjectResult, writing value of type 'OSS.Core.Models.Customer'.
+2021-04-27 09:48:22.669 +01:00 [INF] Executed action OSSApi.Controllers.CustomerController.GetById (OSSApi) in 109.6496ms
+2021-04-27 09:48:22.670 +01:00 [INF] Executed endpoint 'OSSApi.Controllers.CustomerController.GetById (OSSApi)'
+2021-04-27 09:48:22.671 +01:00 [INF] HTTP GET /api/customer/1 responded 200 in 123.6950 ms
+2021-04-27 09:48:22.672 +01:00 [INF] Request finished in 2928.9532ms 200 application/json; charset=utf-8
+2021-04-27 09:48:23.761 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/events/raw application/vnd.serilog.clef; charset=utf-8 24796
+2021-04-27 09:48:23.763 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1180 ms
+2021-04-27 09:48:23.765 +01:00 [INF] Request finished in 4.3689ms 404 
+2021-04-27 09:48:23.766 +01:00 [INF] Connection id "0HM89B4I4K1MJ", Request id "0HM89B4I4K1MJ:00000004": the application completed without reading the entire request body.

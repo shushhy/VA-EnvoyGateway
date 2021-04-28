@@ -1,28 +1,54 @@
-version: '3'
+version: "3"
 services:
-  envoy:
-    build: Envoy/
-    ports:
-      - "9901:9901"
-      - "10000:10000"
-    volumes:
-      - ./Envoy/envoy.yaml:/etc/envoy/envoy.yaml
-    env_file:
-      - .env
-  simpleapi:
-    build: SimpleAPI/
-    #expose:
-    #  - "80"
-    #  - "443"
-    ports:
-      - "5000:80"
-      - "5001:443"
-    environment: 
-      ASPNETCORE_URLS: "https://+;http://+"
-      ASPNETCORE_HTTPS_PORT: "5001"
-      ASPNETCORE_ENVIRONMENT: "Development"
-    volumes: 
-      - ${APPDATA}\Microsoft\UserSecrets:/root/.microsoft/usersecrets
-      - ${USERPROFILE}\.aspnet\https:/root/.aspnet/https/
-    env_file:
-      - .env
+    envoy:
+        build: Envoy/
+        ports:
+            - "80:8000"
+            - "9901:9901"
+        volumes:
+            - ./Envoy/envoy.yaml:/etc/envoy/envoy.yaml
+        env_file:
+            - .env
+    mssql-server:
+        image: mcr.microsoft.com/mssql/server:2019-CU10-ubuntu-20.04
+        environment:
+            ACCEPT_EULA: "Y"
+            SA_PASSWORD: "StrongPassword!99"
+            MSSQL_PID: Express
+        ports:
+            - "1433:1433"
+        volumes:
+            - ./MSSQL/script.sql:/opt/mssql-tools/bin/script.sql
+        env_file:
+            - .env
+    simpleapi:
+        build: SimpleAPI/
+        expose:
+            - "80"
+            - "443"
+        #ports:
+        #    - "5000:80"
+        #    - "5001:443"
+        environment:
+            ASPNETCORE_URLS: "https://+;http://+"
+            ASPNETCORE_HTTPS_PORT: "5001"
+            ASPNETCORE_ENVIRONMENT: "Development"
+        volumes:
+            - ${APPDATA}\Microsoft\UserSecrets:/root/.microsoft/usersecrets
+            - ${USERPROFILE}\.aspnet\https:/root/.aspnet/https/
+        env_file:
+            - .env
+    ossapi:
+        build: OSSApi/
+        ports:
+            - "2000:80"
+            - "2001:443"
+        environment:
+            ASPNETCORE_URLS: "https://+;http://+"
+            ASPNETCORE_HTTPS_PORT: "5001"
+            ASPNETCORE_ENVIRONMENT: "Development"
+        volumes:
+            - ${APPDATA}\Microsoft\UserSecrets:/root/.microsoft/usersecrets
+            - ${USERPROFILE}\.aspnet\https:/root/.aspnet/https/
+        env_file:
+            - .env

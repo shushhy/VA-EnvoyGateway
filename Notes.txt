@@ -1,0 +1,9 @@
+    Notes
+        - Static
+            IP/port/unix domain socket for each upstream host
+        - Strict DNS
+            DNS resolve that considers each IP returned as an host for the upstream cluster and all returned IPs should be load balanced to.
+            This is async continuous and can be controlled with 'dns_refresh_rate' and 'dns_failure_refresh_rate' if 'respect_dns_ttl' is enabled.
+        - Logical DNS
+            Same thing as the above but only uses the first ip returned.
+        https://www.envoyproxy.io/docs/envoy/v1.18.2/intro/arch_overview/upstream/service_discovery#strict-dns
