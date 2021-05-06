@@ -1,54 +1,97 @@
 version: "3"
 services:
+    # mssql-server:
+    #     container_name: mssql-server
+    #     restart: unless-stopped
+    #     build: MSSQL/
+    #     # image: mcr.microsoft.com/mssql/server:2019-CU10-ubuntu-20.04
+    #     # environment:
+    #     # ACCEPT_EULA: "Y"
+    #     # SA_PASSWORD: "StrongPassword!99"
+    #     # MSSQL_PID: Express
+    #     ports:
+    #         - "1433:1433"
+    #     # volumes:
+    #     # - ./MSSQL/:/home/
+    #     env_file:
+    #         - .env
+    #     # command:
+    #     #     - sh /home/entry.sh
+    simpleapi:
+        container_name: simpleapi
+        restart: unless-stopped
+        build: SimpleAPI/
+        # expose:
+        #     - "80"
+        #     - "443"
+        ports:
+            - "5000:80"
+            - "5001:443"
+        environment:
+            ASPNETCORE_URLS: "https://+;http://+"
+            ASPNETCORE_HTTPS_PORT: "5001"
+            ASPNETCORE_ENVIRONMENT: "Development"
+        volumes:
+            - ${APPDATA}\Microsoft\UserSecrets:/root/.microsoft/usersecrets
+            - ${USERPROFILE}\.aspnet\https:/root/.aspnet/https/
+        env_file:
+            - .env
+    # simple:
+    #     container_name: simple
+    #     restart: unless-stopped
+    #     build: Simple2/
+    #     # expose:
+    #     #     - "80"
+    #     #     - "443"
+    #     ports:
+    #         - "5002:80"
+    #         - "5003:443"
+    #     environment:
+    #         ASPNETCORE_URLS: "https://+;http://+"
+    #         ASPNETCORE_HTTPS_PORT: "5001"
+    #         ASPNETCORE_ENVIRONMENT: "Development"
+    #     volumes:
+    #         - ${APPDATA}\Microsoft\UserSecrets:/root/.microsoft/usersecrets
+    #         - ${USERPROFILE}\.aspnet\https:/root/.aspnet/https/
+    #     env_file:
+    #         - .env
+    # ossapi:
+    #     container_name: ossapi
+    #     restart: unless-stopped
+    #     depends_on:
+    #         - mssql-server
+    #     build: OSSApi/
+    #     ports:
+    #         - "2000:80"
+    #         - "2001:443"
+    #     environment:
+    #         ASPNETCORE_URLS: "https://+;http://+"
+    #         ASPNETCORE_HTTPS_PORT: "5001"
+    #         ASPNETCORE_ENVIRONMENT: "Development"
+    #     volumes:
+    #         - ${APPDATA}\Microsoft\UserSecrets:/root/.microsoft/usersecrets
+    #         - ${USERPROFILE}\.aspnet\https:/root/.aspnet/https/
+    #     env_file:
+    #         - .env
+    # seq:
+    #     container_name: seq
+    #     image: datalust/seq:latest
+    #     environment:
+    #         ACCEPT_EULA: "Y"
+    #     ports:
+    #         - "5431:80"
     envoy:
+        container_name: envoy
+        # restart: unless-stopped
+        depends_on:
+            # - ossapi
+            - simpleapi
         build: Envoy/
         ports:
-            - "80:8000"
+            - "8000:8000"
+            - "8001:8001"
             - "9901:9901"
         volumes:
             - ./Envoy/envoy.yaml:/etc/envoy/envoy.yaml
-        env_file:
-            - .env
-    mssql-server:
-        image: mcr.microsoft.com/mssql/server:2019-CU10-ubuntu-20.04
-        environment:
-            ACCEPT_EULA: "Y"
-            SA_PASSWORD: "StrongPassword!99"
-            MSSQL_PID: Express
-        ports:
-            - "1433:1433"
-        volumes:
-            - ./MSSQL/script.sql:/opt/mssql-tools/bin/script.sql
-        env_file:
-            - .env
-    simpleapi:
-        build: SimpleAPI/
-        expose:
-            - "80"
-            - "443"
-        #ports:
-        #    - "5000:80"
-        #    - "5001:443"
-        environment:
-            ASPNETCORE_URLS: "https://+;http://+"
-            ASPNETCORE_HTTPS_PORT: "5001"
-            ASPNETCORE_ENVIRONMENT: "Development"
-        volumes:
-            - ${APPDATA}\Microsoft\UserSecrets:/root/.microsoft/usersecrets
-            - ${USERPROFILE}\.aspnet\https:/root/.aspnet/https/
-        env_file:
-            - .env
-    ossapi:
-        build: OSSApi/
-        ports:
-            - "2000:80"
-            - "2001:443"
-        environment:
-            ASPNETCORE_URLS: "https://+;http://+"
-            ASPNETCORE_HTTPS_PORT: "5001"
-            ASPNETCORE_ENVIRONMENT: "Development"
-        volumes:
-            - ${APPDATA}\Microsoft\UserSecrets:/root/.microsoft/usersecrets
-            - ${USERPROFILE}\.aspnet\https:/root/.aspnet/https/
         env_file:
             - .env

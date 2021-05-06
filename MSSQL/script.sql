@@ -1,6 +1,8 @@
-create database OnlineShoppingSystem;
+DROP DATABASE IF EXISTS OnlineShoppingSystem;
+CREATE DATABASE OnlineShoppingSystem;
+GO
 
-use OnlineShoppingSystem;
+USE OnlineShoppingSystem;
 
 create table Customer(
     CustomerId int not null identity,

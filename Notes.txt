@@ -7,3 +7,4 @@
         - Logical DNS
             Same thing as the above but only uses the first ip returned.
         https://www.envoyproxy.io/docs/envoy/v1.18.2/intro/arch_overview/upstream/service_discovery#strict-dns
+        https://github.com/envoyproxy/envoy/issues/2692
