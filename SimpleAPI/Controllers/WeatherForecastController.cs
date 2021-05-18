@@ -26,6 +26,9 @@ namespace SimpleAPI.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
+            //var h = HttpContext.Request.Headers["Content-Type"];
+            Request.Headers.TryGetValue("x-request-id", out var h);
+            Console.WriteLine(">" + h.ToString());
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
@@ -34,6 +37,7 @@ namespace SimpleAPI.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
+
         }
     }
 }
